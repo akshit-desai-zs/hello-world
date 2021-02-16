@@ -16,7 +16,6 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	fmt.Println("My favorite number is", rand.Intn(10))
 
-	z:= add(3,4)
-	fmt.Println(z)
+	fmt.Println(add(3,4))
 
 }
