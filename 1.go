@@ -8,6 +8,11 @@ import (
 func add(x int, y int) int {
 	return x+y
 }
+
+func multiply(x int, y int) int {
+	return x*y
+}
+
 func main() {
 	fmt.Println("Welcome to the playground!")
 
@@ -17,5 +22,6 @@ func main() {
 	fmt.Println("My favorite number is", rand.Intn(10))
 
 	fmt.Println(add(3,4))
+	fmt.Println(multiply(3,4))
 
 }
