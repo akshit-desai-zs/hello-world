@@ -22,7 +22,7 @@ func TwiningOp(x int, y int) (z int, a int){
 }
 
 var IamBool, Bool2 bool // bool variable for checking true or false
-var i int // variablr for global Integer var
+var i int = 100 // variable for global Integer var
 
 func main() {
 	fmt.Println("Welcome to the playground!")
